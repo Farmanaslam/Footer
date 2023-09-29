@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Footer</title>
+</head>
+<style>
+
+
+#row img{
+        width: 65%;
+        cursor: pointer;
+    }
+
+   .col-md-3 ul {
+        list-style: none;
+        font-size: 15px;
+        color: #777777;
+        cursor: pointer;
+         
+        padding: 0;
+    }
+
+    .col-md-3 li{
+        padding-left: 0;
+       margin-bottom:8px;
+       padding-bottom: 8px;
+        border-bottom:1px dashed #404040;
+       text-align: left;
+       margin-top: 2px;
+    }
+    .col-md-3 li:hover{
+        text-decoration: none;
+        transition: all 500ms ease-in;
+        color: #3b3b3b;
+        -webkit-transition: all 500ms ease-in;
+       
+    }
+   .footer h5 {
+       
+        font-family: 'Montserrat', sans-serif;
+        padding-bottom: 1rem;
+       border-bottom: 1px solid #444;
+       font-size: 15px;
+       
+    }
+    .footer h5::after{
+        border: 1px solid #0B4575;;
+        background: #0B4575;
+    }
+    .footer .line-bottom{
+        position: relative;
+    }
+    .footer .line-bottom::after{
+        bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    }
+
+    .footer h4 {
+  font-size: 15px;
+        color: #777777;
+    }
+
+    .footer p {
+        font-family: 'Open Sans', sans-serif;
+       font-weight: 500;
+        color: #777777;
+        margin-bottom: 20px;
+    }
+    .footer .p{
+        font-size: 15px;
+        margin-bottom: 8px;
+        margin-left: 1px;
+        cursor: pointer;
+        
+    }
+    .footer a{
+        text-decoration: none;
+   color: #777777;
+}
+.footer #adress{
+    
+    font-size: 15px;
+}
+.footer  .fa {
+        cursor: pointer;
+        color:#0B4575 ;
+        margin-right: 4px;
+        margin-top: 2px;
+    }
+    .footer .icon{
+        font-size: 13px;
+    height: 30px;
+   
+    }
+    .footer .icon .fa:hover{
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+      color:  #3b3b3b;
+       
+        -webkit-transition: all 0.3s ease-in-out;
+    }
+    .footer .icon .fa{
+        color: whitesmoke;
+      /*border: 9px solid #333333;*/
+      background-color: #333333;
+      font: normal normal normal 14px/1 FontAwesome;
+      border-radius: 50%;
+      width: 35px;
+      text-align: center;
+      
+      height: 35px;
+      padding: 10px;
+    }
+    .footer .map{
+       
+        border: 3px solid #585858;
+       margin-right: 5px;
+        overflow: hidden;
+        border-bottom:1px dashed #404040;
+        border-radius: 10px;
+    }
+    .footer iframe{
+        width: 100%;
+        border: 0;
+       border: none !important;
+        height: 160px;
+    }
+    .footerend{
+        background-color: #333333 !important;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #777777;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .footerend .text-end{
+        cursor: pointer;
+    }
+   .row{
+    margin-left: -15px;
+    margin-right: -15px;
+   }
+   
+   .footer h3{
+   
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+  }
+ .footer .container-fluid{
+    background-color: #222222 !important;
+  }
+  .footer .fa-copy{
+    color: #777777;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+</style>
+
+<body>
+    <section class="footer">
+    <div class="container-fluid  text-light">
+        <div class="container ">
+            <div class="row " style="padding-top: 60px;">
+                <div class="col-md-3 my-2 sm-mb-30">
+                    <p>ASSEMBLY OF GOD CHURCH SCHOOL, ASANSOL</p>
+                    <div class="d-flex">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p id="adress " class="p"> G.T. Road, Asansol-4</p>
+                    <i class="fa-solid fa-copy copy-btn"></i>
+                </div>
+                    <div class=" d-flex  ">
+                        <i class='fa fa-phone'></i>
+                        <a href="tel:(+91) 7029059710" > <p class="p">(+91) 7029059710</p></a>
+                        <i class="fa-solid fa-copy copy-btn"></i>
+                    </div>
+                    <div class=" d-flex ">
+                        <i class='fa fa-envelope '></i>
+                        <a href="mailto:agcsasl@rediffmail.com">    <p class="p">agcsasl@rediffmail.com</p></a>
+                        <i class="fa-solid fa-copy copy-btn"></i>
+                    </div>
+                    <div class=" d-flex ">
+                        <i class='fa fa-globe'></i>
+                        <a href="http://www.agasansol.org" target="_blank"> <p class="p">www.agasansol.org</p></a>
+                        <i class="fa-solid fa-copy copy-btn"></i>
+                    </div>
+
+                </div>
+                <div class="col-md-3 my-2 ">
+                   
+                   <div> <h5 class="line-bottom">Navigation</h5>
+                   </div>
+                   <div>
+                    <ul class="list angle-double-right list-border">
+
+                     <li >Admission</li>
+                        <li>Fee Payment</li>
+                        <li>About School</li>
+                        <li>Events</li>
+
+                    </ul>
+                </div>
+            </div>
+
+                <div class="col-md-3 my-2">
+                    <h5 class="line-bottom">Useful Links</h5>
+                    <ul class="list angle-double-right list-border">
+                        <li>Notices</li>
+                        <li>Academic Calendar</li>
+                        <li>Fee Structure</li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-3 my-2">
+                    <h5 class="line-bottom">Location Map</h5>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d456.6773778585008!2d86.967096!3d23.696726!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f71f235e7da5c1%3A0x1300905b7e020fa8!2sNaya%20Mohalla%20Punchayat%20Building!5e0!3m2!1sen!2sin!4v1695104828417!5m2!1sen!2sin"
+                            width="100%" height="250" style="border: 0" allowFullScreen="allowfullscreen" loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  
+                </div>
+            </div>
+<div class="row  py-2 pb-5" id="row">
+    <div class="col md-3 ">
+        <div class="my-2">
+            <h3 >Mobile App</h3>
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                alt=""></img>
+        </div> 
+    </div>
+    <div class="col-md-3 my-2">
+
+    </div>
+    <div class="col-md-3 my-2">
+        <h3>
+            Call Us Now
+        </h3> 
+        <a href="tel:(+91) 7029059710" ><p>+91 7029059710</p>   </a>
+    </div>
+    <div class="col-md-3 my-2">
+        <h3 >Connect With Us</h3>
+                    <div class="icon">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <i  class="fa fa-facebook" area-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+  
+   <div class="footerend">
+    <div class="container pt-20 pb-20">
+        <div class="row">
+            <div class="col-md-6">
+                <p>Copyright © Assembly of God Church School, Asansol</p>
+            </div>
+            <div class="col-md-6 text-end">
+                <p>Parent Login | Our Faculty | Sitemap</p>
+            </div>
+        </div>
+    </div>
+   </div>
+</section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(".copy-btn").click(function(){
+            navigator.clipboard.writeText($(this).prev().text());
+            alert("Text copied");
+           
+        });
+
+    </script>
+
+</html>
