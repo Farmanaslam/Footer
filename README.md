@@ -1,2 +1,2 @@
 # Footer-
-Simple cool design footer for websites.
+Good & Responsive UI design footer for websites.
